@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#66372d">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<!--Menu Tabs & logo At Top-->
+	<header>
+	<a href="#" class="logo">Portfolio</a>
+	<div class="toggle" onclick="toggleMenu();"></div>
+	<ul class="menu">	
+		<li><a href="#home" onclick="toggleMenu();">Home</a></li>
+		<li><a href="#about" onclick="toggleMenu();">About</a></li>
+		<li><a href="#services" onclick="toggleMenu();">Services</a></li>
+		<li><a href="#work" onclick="toggleMenu();">Work</a></li>
+		<li><a href="#crt" onclick="toggleMenu();">Certificates</a></li>
+		<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+	</ul>
+	</header>
+	
+	<!--Banner layout-->
+	<section class="banner" id="home">
+		<div class="textbx">
+			<h2>Hello I'm<br> <span>Brent Henry</span></h2>
+			<h3>I'm a Front End Web Developer</h3>
+			<a href="#about" class="btn">About Me</a>
+		</div>
+	</section>
+	
+	<!--About Me-->
+	<section class="about" id="about">
+		<div class="heading">
+			<p>Get to Know Me</p>
+			<h2>About me</h2>
+		</div>
+		<div class="content">
+			<div class="w50">
+				<img src="Images/MyPicture2.jpg" alt="BrentHenry" class="proPic">
+			</div>
+		  <div class="contentBx w50">
+				<h3>Who am I?</h3>
+				<h2>I'm <b>Brent Herny</b>, a Front End Web Developer and Digital Designer</h2>
+			  	<p> I enjoy making websites using the diferent languages that I know like: HTML, CSS, and Java Script. With these websites I can create phots and videos using my knowledge for Photoshop, Premiere pro, and OBS.</p>
+			  <div class="heading bottom">
+				  <a href="#" target="_blank" class="btn round">Download CV</a>
+				  <div class="bt">
+					   <b>Name:</b> Brent Henry<br>
+					   <b>Age:</b> 16
+				  </div>
+				  <div class="bt">
+					  <b>Email:</b> brent.henry17@gmail.com<br>
+					  <b>Location:</b> United States of America 
+				  </div>
+			  </div>
+		  </div>
+		</div>
+	</section>
+	
+	<!--Services Layout-->
+	<section class="services" id="services">
+		<div class="heading white">
+			<h2>Our Services</h2>
+			<p>Services I Offer to my Clients </p>
+		</div>
+		<div class="content">
+			<div class="servicesBx">
+				<i class="fa fa-laptop fa-4x"></i>
+				<h3>Web Design CSS</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="servicesBx">
+				<i class="fa fa-camera-retro fa-4x"></i>
+				<h3>Adobe Photoshop</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="servicesBx">
+				<i class="fa fa-video-camera fa-4x"></i>
+				<h3>Abobe Premiere pro</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="servicesBx">
+				<i class="fa fa-pencil fa-4x"></i>
+				<h3>Abobe Illustrator</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="servicesBx">
+				<i class="fa fa-step-forward fa-4x"></i>
+				<h3>OBS Studios</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="servicesBx">
+				<i class="fa fa-power-off fa-4x"></i>
+				<h3>Website Builder</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+		</div>
+	</section>
+	
+	<!--Work Layout-->
+	<section class="work" id="work">
+		<div class="heading">
+			<h2>Our Latest Work</h2>
+			<p>Showcasing some of my <b>Websites</b></p>
+		</div>
+		<div class="content">
+			<div class="workBx">
+				<a href="https://joehealthy.github.io/Movie-App/" target="_blank">
+					<img src="Images/Web Design Movie App.png" alt="">
+					<p>Movie Application</p>
+				</a>
+			</div>
+			<div class="workBx"><a href="https://joehealthy.github.io/Double-Heart-Click/" target="_blank">
+					<img src="Images/Web Design Double Heart Click.png" alt="">
+					<p>Double Clike Heart Application</p>
+				</a></div>
+			<div class="workBx"><a href="https://joehealthy.github.io/Dad-Jokes/" target="_blank">
+					<img src="Images/Web Design Dad Jokes.png" alt="">
+					<p>Dad Joke Application</p>
+				</a></div>
+			<div class="workBx"><a href="https://joehealthy.github.io/Drawing-App/" target="_blank">
+					<img src="Images/Web Design draw.png" alt="">
+					<p>Drawing Application</p>
+				</a></div>
+			<div class="workBx"><a href="https://joehealthy.github.io/Car-Website/" target="_blank">
+					<img src="Images/Web Design Car.png" alt="">
+					<p>Car Web Page</p>
+				</a></div>
+			<div class="workBx"><a href="https://joehealthy.github.io/Theme-Clock/" target="_blank">
+					<img src="Images/Web Design Theme Clock.png" alt="">
+					<p>Theme Clock Application</p>
+				</a></div>
+			<div class="heading">
+				<a href="https://github.com/Joehealthy?tab=repositories" target="_blank" class="btn" style="color: #fff;">View All My Websites</a>
+			</div>
+		</div>
+	</section>
+	<!--certificates-->
+	<section class="crt" id="crt">
+	<div class="heading">
+			<h2>My Certificates</h2>
+		</div>
+		<div class="crtimg">
+		<img src="Images/mta-introduction-to-programming-using-html-and-css-certified-2022.png"  width="300px" alt="crt">
+		<img src="Images/mta-html5-application-development-fundamentals-certified-2022.png" width="300px" alt="crt">
+		</div>
+	</section>
+	<section class="contact" id="contact">
+		<div class="heading white">
+			<p>Feel free to contact me anytime</p>
+			<h2>Get in Touch</h2>
+		</div>
+		<div class="content">
+			<div class="contactInfo">
+				<h3>Contact Info</h3>
+				<p>Always available for freelance work if the right project<br>
+comes along, Feel free to contact me!</p>
+				<div class="contactInfoBx">
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-map-marker"></i>
+						</div>
+						<div class="text">
+							<h3>Address</h3>
+							<address>Nila M Ackley,<br> 4916 Lauren Drive<br> Brooklyn, Wisconsin,<br> WI, 53521</address>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-phone"></i>
+						</div>
+						<div class="text">
+							<h3>Phone Number</h3>
+							<p>123-456-7890</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon">
+							<i class="fa fa-user"></i>
+						</div>
+						<div class="text">
+							<h3>Email Address</h3>
+							<p>Brent.Henry17@gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!--Footer-->
+	<footer class="copyright">
+		<p><span>&#169;</span> 2020, Yourwebsite.com, Allrights reserved</p>
+	</footer>
+	<script src="script.js" language="javascript"></script> 
+</body>
+</html>
+	
+<!--23-->
